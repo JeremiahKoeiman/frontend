@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description=" content="Jeremiah Koeiman's portfolio website">
+    <meta name="robots" content="nofollow">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio website</title>
+</head>
+<body>
+
+<nav>
+    <img src="img/Logo.png" alt="Logo">
+    <div>
+        <a href="#work-experience">Work experience</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section id="sectionOne">
+    <h1>I am Jeremiah</h1>
+    <p>I am a web developer</p>
+    <p>Hi, I am a young developer that loves his work and my favorite language is Javascript.</p>
+</section>
+
+<img class="face" src="img/img.png" alt="Face">
+
+<section id="work-experience">
+    <h1>Work experience</h1>
+    <div class="container">
+        <div class="partOne">
+            <h3>Test project</h3>
+            <p>
+                In this project I created a website that controles your gmail inbox
+                so that you don’t get any spam anymore! And I used:
+            </p>
+            <ul>
+                <li>Node JS</li>
+                <li>Firebase</li>
+                <li>React</li>
+            </ul>
+        </div>
+        <div class="partTwo">
+            <h3>Test project 2</h3>
+            <p>
+                In this project I created a website that controles your gmail inbox
+                so that you don’t get any spam anymore! And I used:
+            </p>
+            <ul>
+                <li>Node JS</li>
+                <li>Firebase</li>
+                <li>React</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h1>Contact</h1>
+    <div class="form">
+        <div class="form-control">
+            <label for="name">Name</label>
+                <input id="name" type="text" required>
+
+            <label for="email">Email</label>
+                <input id="email" type="text" required>
+
+            <label for="message">Message</label>
+                <input id="message" required>
+
+            <button type="submit">Send</button>
+        </div>
+    </div>
+</section>
+
+<button class="btn" id="scrollButton">
+    <img class="to-top" src="img/Vector.png" alt="Arrow icon">
+</button>
+
+<script src="app.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.15.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+</body>
+</html>

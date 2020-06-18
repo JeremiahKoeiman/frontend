@@ -1,0 +1,14 @@
+{
+  "name": "jerry-portfolio-website",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "public/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremiah Koeiman",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-tools": "^8.4.3"
+  }
+}
