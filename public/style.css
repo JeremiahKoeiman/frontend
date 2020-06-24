@@ -20,15 +20,20 @@ html body nav {
   margin-right: 10%;
 }
 html body nav div {
+  display: table;
   float: right;
 }
-html body nav div a {
+html body nav div ul li {
+  display: inline;
+  list-style-type: none;
+}
+html body nav div ul li a {
   text-decoration: none;
   color: white;
   display: inline-block;
   margin: 15px;
 }
-html body nav div a:focus {
+html body nav div ul li a:focus {
   color: white;
 }
 html body nav img {
@@ -61,37 +66,44 @@ html #work-experience .container {
 html #work-experience .container .partOne {
   grid-column: 1/2;
   width: 500px;
-  background-color: rgba(138, 169, 179, 0.31) !important;
+  background-color: #687984 !important;
 }
-html #work-experience .container .partOne h3 {
+html #work-experience .container .partOne h2 {
   font-size: 48px;
   margin-bottom: 10%;
   margin-top: 5px;
 }
-html #work-experience .container .partOne ul {
+html #work-experience .container .partOne .dark {
+  background-color: #4a5b66;
+}
+html #work-experience .container .partOne .dark ul {
   margin: 10% 0;
   line-height: 30px;
   text-align: initial;
 }
-html #work-experience .container .partOne ul li {
+html #work-experience .container .partOne .dark ul li {
+  font-weight: bold;
   margin-left: 40%;
 }
 html #work-experience .container .partTwo {
   grid-column: 2/3;
   width: 500px;
-  background-color: rgba(138, 169, 179, 0.31) !important;
+  background-color: #687984 !important;
 }
-html #work-experience .container .partTwo h3 {
+html #work-experience .container .partTwo h2 {
   font-size: 48px;
   margin-bottom: 10%;
   margin-top: 5px;
 }
-html #work-experience .container .partTwo ul {
+html #work-experience .container .partTwo .darkTwo {
+  background-color: #4a5b66;
+}
+html #work-experience .container .partTwo .darkTwo ul {
   margin: 10% 0;
   line-height: 30px;
   text-align: initial;
 }
-html #work-experience .container .partTwo ul li {
+html #work-experience .container .partTwo .darkTwo ul li {
   margin-left: 40%;
 }
 
@@ -106,7 +118,7 @@ html #work-experience .container .partTwo ul li {
   justify-content: center;
   flex-direction: column;
   margin: 0;
-  background-color: rgba(138, 169, 179, 0.31);
+  background-color: #4a5b66;
   width: 1172px;
 }
 #contact .form .form-control {
@@ -143,7 +155,7 @@ html #work-experience .container .partTwo ul li {
   height: 65px;
   font-size: 36px;
   color: white;
-  background-color: rgba(172, 37, 235, 0.67);
+  background-color: #ac25eb;
   border: none;
   text-align: center;
   text-decoration: none;

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-$divColor: rgba(138, 169, 179, 0.31);
+$divColor: #687984;
 $fontSize36: 36px;
 $fontSize48: 48px;
 $margin: 10%;
+$dark: #4a5b66;
 
 * {
   box-sizing: border-box;
@@ -26,16 +27,23 @@ html {
       margin-right: 10%;
 
       div {
+        display: table;
         float: right;
 
-        a {
-          text-decoration: none;
-          color: white;
-          display: inline-block;
-          margin: 15px;
+        ul {
+          li {
+            display: inline;
+            list-style-type: none;
+            a {
+              text-decoration: none;
+              color: white;
+              display: inline-block;
+              margin: 15px;
 
-          &:focus {
-            color: white;
+              &:focus {
+                color: white;
+              }
+            }
           }
         }
       }
@@ -78,18 +86,23 @@ html {
         width: 500px;
         background-color: $divColor !important;
 
-        h3 {
+        h2 {
           font-size: $fontSize48;
           margin-bottom: $margin;
           margin-top: 5px;
         }
 
-        ul {
-          margin: $margin 0;
-          line-height: 30px;
-          text-align: initial;
-          li {
-            margin-left: 40%;
+        .dark {
+          background-color: $dark;
+
+          ul {
+            margin: $margin 0;
+            line-height: 30px;
+            text-align: initial;
+            li {
+              font-weight: bold;
+              margin-left: 40%;
+            }
           }
         }
       }
@@ -99,18 +112,21 @@ html {
         width: 500px;
         background-color: $divColor !important;
 
-        h3 {
+        h2 {
           font-size: $fontSize48;
           margin-bottom: $margin;
           margin-top: 5px;
         }
 
-        ul {
-          margin: $margin 0;
-          line-height: 30px;
-          text-align: initial;
-          li {
-            margin-left: 40%;
+        .darkTwo {
+          background-color: #4a5b66;
+          ul {
+            margin: $margin 0;
+            line-height: 30px;
+            text-align: initial;
+            li {
+              margin-left: 40%;
+            }
           }
         }
       }
@@ -129,7 +145,7 @@ html {
     justify-content: center;
     flex-direction: column;
     margin: 0;
-    background-color: $divColor;
+    background-color: $dark;
     width: 1172px;
 
     .form-control {
@@ -170,7 +186,7 @@ html {
         height: 65px;
         font-size: $fontSize36;
         color: white;
-        background-color: rgba(172,37,235, .67);
+        background-color: rgb(172, 37, 235);
         border: none;
         text-align: center;
         text-decoration: none;
