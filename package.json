@@ -9,6 +9,7 @@
   "author": "Jeremiah Koeiman",
   "license": "ISC",
   "dependencies": {
+    "firebase": "^8.2.3",
     "firebase-tools": "^8.4.3"
   }
 }
