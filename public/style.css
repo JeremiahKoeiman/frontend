@@ -289,7 +289,7 @@ html #work-experience .container .partTwo .darkTwo ul li {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0;
-  background-color: #4a5b66;
+  background-color: #FFF;
   width: 1172px;
 }
 
@@ -301,25 +301,20 @@ html #work-experience .container .partTwo .darkTwo ul li {
 }
 
 #contact .form .form-control p {
-  background-color: rgba(255, 255, 255, 0);
   position: relative;
   border: 0;
-  border-bottom: 2px solid #E7E7E7;
+  border-bottom: 2px solid #FFF;
   padding: 15px 0;
   width: 100%;
   font-size: 18px;
   -webkit-transition: 0.1s ease-in;
   transition: 0.1s ease-in;
+  color: #000;
 }
 
 #contact .form .form-control p a {
   text-decoration: none;
-  color: white;
-}
-
-#contact .form .form-control label {
-  position: absolute;
-  left: 19%;
+  color: #000 !important;
 }
 
 #contact .form .form-control input, #contact .form .form-control button {
@@ -576,7 +571,7 @@ h1 {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0;
-    background-color: #4a5b66;
+    background-color: #687984;
     width: 1172px;
   }
   #contact .form .form-control {
