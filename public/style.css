@@ -289,7 +289,8 @@ html #work-experience .container .partTwo .darkTwo ul li {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0;
-  background-color: #FFF;
+  background-color: #4a5b66 !important;
+  color: #5c6e7a;
   width: 1172px;
 }
 
@@ -309,12 +310,10 @@ html #work-experience .container .partTwo .darkTwo ul li {
   font-size: 18px;
   -webkit-transition: 0.1s ease-in;
   transition: 0.1s ease-in;
-  color: #000;
 }
 
 #contact .form .form-control p a {
   text-decoration: none;
-  color: #000 !important;
 }
 
 #contact .form .form-control input, #contact .form .form-control button {
